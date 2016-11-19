@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1A</OriginalElement>
+  <nodes>
+    <node x="1182.9722222222222" y="680.0">com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator1</node>
+    <node x="1362.9884259259259" y="487.0">com.omed.abstractFactory.product.facoryMethod.ConcteteProduct2</node>
+    <node x="634.4722222222222" y="510.5">com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory2</node>
+    <node x="161.47222222222217" y="510.5">com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory1</node>
+    <node x="1568.8217592592591" y="680.0">com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator2</node>
+    <node x="1025.9884259259259" y="487.0">com.omed.abstractFactory.product.facoryMethod.ConcteteProduct1</node>
+    <node x="1159.1550925925924" y="0.0">com.omed.abstractFactory.factory.abstactFactory.AbstractFactory</node>
+    <node x="1699.9884259259259" y="498.5">com.omed.abstractFactory.factory.factoryMethod.Creator</node>
+    <node x="444.55555555555566" y="0.0">com.omed.abstractFactory.product.abstractFactory.AbstractProduct1</node>
+    <node x="729.1967592592591" y="0.0">com.omed.abstractFactory.product.abstractFactory.AbstractProduct2</node>
+    <node x="1198.1273148148148" y="176.0">com.omed.abstractFactory.product.facoryMethod.Product</node>
+    <node x="493.19675925925924" y="268.5">com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1B</node>
+    <node x="729.1967592592591" y="268.5">com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2B</node>
+    <node x="0.0" y="268.5">com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1A</node>
+    <node x="236.0" y="268.5">com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2A</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2B" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct2">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory2" target="com.omed.abstractFactory.factory.abstactFactory.AbstractFactory">
+      <point x="106.66666666666663" y="-38.0" />
+      <point x="901.1388888888889" y="462.0" />
+      <point x="1094.5185185185185" y="462.0" />
+      <point x="1094.5185185185185" y="156.0" />
+      <point x="1279.1550925925924" y="156.0" />
+      <point x="-40.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1A" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct1">
+      <point x="0.0" y="-38.0" />
+      <point x="108.0" y="126.0" />
+      <point x="480.55555555555566" y="126.0" />
+      <point x="-72.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.facoryMethod.Product" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct1">
+      <point x="-114.33333333333326" y="-130.5" />
+      <point x="1255.2939814814815" y="126.0" />
+      <point x="624.5555555555557" y="126.0" />
+      <point x="72.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2A" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct2">
+      <point x="0.0" y="-38.0" />
+      <point x="344.0" y="136.0" />
+      <point x="765.1967592592591" y="136.0" />
+      <point x="-72.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.facoryMethod.Product" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct2">
+      <point x="0.0" y="-130.5" />
+      <point x="1369.6273148148148" y="116.0" />
+      <point x="909.1967592592591" y="116.0" />
+      <point x="72.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.facoryMethod.Product" target="com.omed.abstractFactory.factory.abstactFactory.AbstractFactory">
+      <point x="114.33333333333326" y="-130.5" />
+      <point x="1483.960648148148" y="106.0" />
+      <point x="1359.1550925925924" y="106.0" />
+      <point x="40.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator1" target="com.omed.abstractFactory.factory.factoryMethod.Creator">
+      <point x="92.33333333333326" y="-38.5" />
+      <point x="1413.8055555555554" y="660.0" />
+      <point x="1768.7384259259259" y="660.0" />
+      <point x="-68.75" y="50.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory1" target="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2A">
+      <point x="0.0" y="-38.0" />
+      <point x="321.4722222222222" y="462.0" />
+      <point x="344.0" y="462.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator2" target="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct1">
+      <point x="-92.33333333333326" y="-38.5" />
+      <point x="1614.9884259259259" y="640.0" />
+      <point x="1263.7384259259259" y="640.0" />
+      <point x="79.25" y="61.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory2" target="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct2B">
+      <point x="0.0" y="-38.0" />
+      <point x="794.4722222222222" y="462.0" />
+      <point x="837.1967592592591" y="462.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory1" target="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1A">
+      <point x="-106.66666666666669" y="-38.0" />
+      <point x="214.80555555555543" y="462.0" />
+      <point x="108.0" y="462.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory2" target="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1B">
+      <point x="-106.66666666666674" y="-38.0" />
+      <point x="687.8055555555554" y="462.0" />
+      <point x="601.1967592592592" y="462.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct2" target="com.omed.abstractFactory.product.facoryMethod.Product">
+      <point x="0.0" y="-61.5" />
+      <point x="1521.4884259259259" y="462.0" />
+      <point x="1455.3773148148148" y="462.0" />
+      <point x="85.75" y="130.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.abstractFactory.ConcreteProduct1B" target="com.omed.abstractFactory.product.abstractFactory.AbstractProduct1">
+      <point x="0.0" y="-38.0" />
+      <point x="601.1967592592592" y="126.0" />
+      <point x="552.5555555555557" y="126.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct1" target="com.omed.abstractFactory.product.facoryMethod.Product">
+      <point x="0.0" y="-61.5" />
+      <point x="1184.4884259259259" y="462.0" />
+      <point x="1283.8773148148148" y="462.0" />
+      <point x="-85.75" y="130.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator1" target="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct2">
+      <point x="0.0" y="-38.5" />
+      <point x="1321.4722222222222" y="650.0" />
+      <point x="1442.2384259259259" y="650.0" />
+      <point x="-79.25" y="61.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator2" target="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct2">
+      <point x="0.0" y="-38.5" />
+      <point x="1707.3217592592591" y="630.0" />
+      <point x="1600.7384259259259" y="630.0" />
+      <point x="79.25" y="61.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator1" target="com.omed.abstractFactory.product.facoryMethod.ConcteteProduct1">
+      <point x="-92.33333333333326" y="-38.5" />
+      <point x="1229.138888888889" y="660.0" />
+      <point x="1105.2384259259259" y="660.0" />
+      <point x="-79.25" y="61.5" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.Creator" target="com.omed.abstractFactory.factory.abstactFactory.AbstractFactory">
+      <point x="0.0" y="-50.0" />
+      <point x="1837.4884259259259" y="96.0" />
+      <point x="1439.1550925925924" y="96.0" />
+      <point x="120.0" y="38.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.factoryMethod.ConcreteCreator2" target="com.omed.abstractFactory.factory.factoryMethod.Creator">
+      <point x="92.33333333333326" y="-38.5" />
+      <point x="1799.6550925925924" y="660.0" />
+      <point x="1906.2384259259259" y="660.0" />
+      <point x="68.75" y="50.0" />
+    </edge>
+    <edge source="com.omed.abstractFactory.factory.abstactFactory.ConcreteFactory1" target="com.omed.abstractFactory.factory.abstactFactory.AbstractFactory">
+      <point x="106.66666666666674" y="-38.0" />
+      <point x="428.1388888888889" y="462.0" />
+      <point x="482.69675925925924" y="462.0" />
+      <point x="482.69675925925924" y="146.0" />
+      <point x="1199.1550925925924" y="146.0" />
+      <point x="-120.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9403508771929825" x="987.5" y="378.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

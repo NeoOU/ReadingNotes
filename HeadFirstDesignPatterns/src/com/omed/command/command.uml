@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.omed.command.receiver.ReceiverImpl</OriginalElement>
+  <nodes>
+    <node x="167.0" y="230.0">com.omed.command.command.CommandImpl</node>
+    <node x="0.0" y="230.0">com.omed.command.invoker.Invoker</node>
+    <node x="196.75" y="0.0">com.omed.command.receiver.Receiver</node>
+    <node x="280.5" y="115.0">com.omed.command.receiver.ReceiverImpl</node>
+    <node x="89.5" y="103.0">com.omed.command.command.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.omed.command.invoker.Invoker" target="com.omed.command.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="73.5" y="205.0" />
+      <point x="132.25" y="205.0" />
+      <point x="-42.75" y="38.5" />
+    </edge>
+    <edge source="com.omed.command.receiver.ReceiverImpl" target="com.omed.command.receiver.Receiver">
+      <point x="0.0" y="-26.5" />
+      <point x="342.5" y="78.0" />
+      <point x="289.75" y="78.0" />
+      <point x="31.0" y="26.5" />
+    </edge>
+    <edge source="com.omed.command.command.CommandImpl" target="com.omed.command.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="276.5" y="205.0" />
+      <point x="217.75" y="205.0" />
+      <point x="42.75" y="38.5" />
+    </edge>
+    <edge source="com.omed.command.command.Command" target="com.omed.command.receiver.Receiver">
+      <point x="0.0" y="-38.5" />
+      <point x="175.0" y="78.0" />
+      <point x="227.75" y="78.0" />
+      <point x="-31.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="202.5" y="153.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

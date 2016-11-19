@@ -1,0 +1,16 @@
+package com.omed.factoryMethod.product;
+
+/**
+ * Created by omed on 2016/11/9.
+ */
+public class ConcteteProduct2 implements Product {
+    @Override
+    public void methodA() {
+        System.out.println("methodA from ConcteteProduct2 ");
+    }
+
+    @Override
+    public void methodB() {
+        System.out.println("methodB from ConcteteProduct2 ");
+    }
+}
