@@ -15,4 +15,9 @@ public class CommandImpl extends Command {
     public void execute() {
         receiver.action();
     }
+
+    @Override
+    public void undo() {
+        receiver.undoAction();
+    }
 }

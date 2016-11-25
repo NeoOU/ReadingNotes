@@ -6,4 +6,5 @@ package com.omed.command.receiver;
  */
 public interface Receiver {
     void action();
+    void undoAction();
 }

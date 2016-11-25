@@ -9,4 +9,9 @@ public class ReceiverImpl implements Receiver {
     public void action() {
         System.out.println("Receiver executes the action");
     }
+
+    @Override
+    public void undoAction() {
+        System.out.println("Receiver executes the undoAction");
+    }
 }

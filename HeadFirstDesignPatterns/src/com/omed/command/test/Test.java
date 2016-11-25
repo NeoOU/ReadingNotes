@@ -17,5 +17,7 @@ public class Test {
         invoker.setCommand(command);
         invoker.invoke();
 
+        invoker.invoikUndo();
+
     }
 }

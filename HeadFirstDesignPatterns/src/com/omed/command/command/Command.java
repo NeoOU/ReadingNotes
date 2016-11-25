@@ -9,6 +9,8 @@ import com.omed.command.receiver.Receiver;
 public abstract class Command {
     protected Receiver receiver;
 
-    public void execute(){};
+    public abstract void execute();
+
+    public abstract void undo();
 
 }
